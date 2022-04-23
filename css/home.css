@@ -1,0 +1,21 @@
+.container{
+    margin: 5px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    grid-template-rows: 300px;
+
+}
+.item{
+    background-color: hsl(29, 95%, 76%);
+    border-style: dashed;
+    padding: 50px;
+}
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: hsl(29, 95%, 76%);
+    border-style: dashed;
+    padding: 50px;
+}

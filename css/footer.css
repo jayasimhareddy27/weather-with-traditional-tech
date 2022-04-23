@@ -1,0 +1,22 @@
+.grid-item {
+  background-color: whitesmoke;
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+.contactgrid {
+  text-align: left;
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.2fr 1.2fr 1fr;
+  background-color: whitesmoke;
+}
+footer ul{
+    list-style: none;
+}
